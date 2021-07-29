@@ -29,7 +29,7 @@ model_run<-function(model_input = NULL)
 
 get_default_input <- function() {
   model_input <- list(age                                  =62,
-                      race                                 ='White',
+                      race                                 =1,
                       education                            =4,
                       bmi                                  =27,
                       copd                                 =0,
